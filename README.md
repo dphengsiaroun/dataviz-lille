@@ -122,7 +122,7 @@ Visit this url `http://localhost:9200` on your browser.
 
 
 # Check if the services are started
-Check confirm services started with this command :
+Verify if all your services are started with this command :
 ```
 $ brew services list
 ```
