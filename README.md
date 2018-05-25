@@ -36,7 +36,7 @@ $ brew services start kibana
 
 Visit this url `http://localhost:5601` on your browser.
 
-On `Dev tools` view, add this code :
+In Dashboard click in `Dev tools` view and add this code :
 ```
 PUT items
 {
@@ -68,7 +68,7 @@ Create file `logstash.conf` on your shell with this command :
 sudo vim /etc/logstash/conf.d/logstash.conf
 ```
 
-Insert this code in your file config logstash :
+Add this code in your file config logstash (you can custom the filter object according to your needs):
 ```
 input {
   stdin {
@@ -107,10 +107,10 @@ output {
 }
 ```
 
-Run file config logstash on your shell
+Run the file config logstash on your shell
 
 ```
-$ logstash -f logstash.conf
+$ logstash -f logstash/filename.conf
 ```
 
 # Start Elasticsearch
@@ -121,7 +121,7 @@ $ brew services start elasticsearch
 Visit this url `http://localhost:9200` on your browser.
 
 
-# Check Services started
+# Check if the services are started
 Check confirm services started with this command :
 ```
 $ brew services list
