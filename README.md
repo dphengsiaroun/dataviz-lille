@@ -3,15 +3,18 @@
 ## Prerequisites
 Install :
 1. Java 8 (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-2. Kibana
+2. Kibana (https://www.elastic.co/downloads/kibana)
+or on MacOS run this command :
 ```
 brew install kibana
 ```
-3. ElasticSearch
+3. ElasticSearch (https://www.elastic.co/downloads/elasticsearch)
+or on MacOS run this command :
 ```
 brew install elasticsearch && brew info elasticsearch
 ```
-4. Logstash
+4. Logstash (https://www.elastic.co/downloads/logstash)
+or on MacOS run this command :
 ```
 brew install logstash
 ```
@@ -55,23 +58,24 @@ DELETE items
 ```
 
 # Start Logstash
+Run this command :
 ```
 $ brew services start logstash
 ```
 
-Create file `logstash.conf`
+Create file `logstash.conf` on your shell with this command :
 ```
 sudo vim /etc/logstash/conf.d/logstash.conf
 ```
 
-File config logstash :
+Insert this code in your file config logstash :
 ```
 input {
   stdin {
     type => "stdin-type"
   }
   file {
-    path => [ "/Users/Phengsiaroun/Desktop/dataviz/bureaux-de-poste.csv"]
+    path => [ "/${path}/data/bureaux-de-poste.csv"]
     start_position => "beginning"
     sincedb_path => "/dev/null"
   }
@@ -110,6 +114,7 @@ $ logstash -f logstash.conf
 ```
 
 # Start Elasticsearch
+Run this command :
 ```
 $ brew services start elasticsearch
 ```
