@@ -2,16 +2,19 @@
 
 ## Prerequisites
 Install :
-- Java 8 (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-
-- Kibana
-(`brew install kibana`)
-
-- ElasticSearch
-(`brew install elasticsearch && brew info elasticsearch`)
-
-- Logstash
-(`brew install logstash`)
+1. Java 8 (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+2. Kibana
+```
+brew install kibana
+```
+3. ElasticSearch
+```
+brew install elasticsearch && brew info elasticsearch
+```
+4. Logstash
+```
+brew install logstash
+```
 
 # Start Kibana
 Open the Kibana configuration file:  
@@ -30,7 +33,7 @@ $ brew services start kibana
 
 Visit this url `http://localhost:5601` on your browser.
 
-On `Dev tools` view add this code :
+On `Dev tools` view, add this code :
 ```
 PUT items
 {
