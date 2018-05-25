@@ -1,0 +1,23 @@
+libelle;commune;code-postal;url;geometry;objectid;geo_point_2d
+CHR CENTRE HOSPITALIER JEAN LUXEMBOURG;HAUBOURDIN;59320;http://www.ghlh.fr;"{""type"": ""Point"", ""coordinates"": [2.9867346234108, 50.61301285066]}";6229;50.6130128507, 2.98673462341
+POLYCLINIQUE DU BOIS;LILLE;59000;http://www.polyclinique-bois.com;"{""type"": ""Point"", ""coordinates"": [3.0311165347557, 50.634754244585]}";3350;50.6347542446, 3.03111653476
+POLYCLINIQUE LA LOUVIERE;LILLE;59000;http://hopital-prive-la-louviere-lille.ramsaygds.fr/;"{""type"": ""Point"", ""coordinates"": [3.0839524153393, 50.64651137837]}";979;50.6465113784, 3.08395241534
+CLINIQUE DU SPORT ET DE CHIRURGIE ORTHOPEDIQUE HPM;MARCQ-EN-BAROEUL;59700;http://www.clinique-sport-lille.fr/;"{""type"": ""Point"", ""coordinates"": [3.1015500890599, 50.666496024961]}";1168;50.666496025, 3.10155008906
+CHR CENTRE HOSPITALIER;WATTRELOS;59150;http://www.ch-wattrelos.com;"{""type"": ""Point"", ""coordinates"": [3.2220152228126, 50.700749035758]}";1877;50.7007490358, 3.22201522281
+CHR CENTRE HOSPITALIER LOOS HAUBOURDIN;LOOS;59120;http://www.ghlh.fr;"{""type"": ""Point"", ""coordinates"": [3.007890732357, 50.610567295391]}";1095;50.6105672954, 3.00789073236
+CHR CENTRE HOSPITALIER DE ROUBAIX VICTOR PROVO;ROUBAIX;59100;http://www.ch-roubaix.fr;"{""type"": ""Point"", ""coordinates"": [3.1738283246326, 50.679169333955]}";1410;50.679169334, 3.17382832463
+CHR CENTRE HOSPITALIER DE SECLIN;SECLIN;59113;http://www.ch-seclin.fr/index/1/1;"{""type"": ""Point"", ""coordinates"": [3.0178100510722, 50.54664145579]}";1571;50.5466414558, 3.01781005107
+POLYCLINIQUE DU VAL DE LYS;TOURCOING;59200;http://www.groupehpm.com/cliniques/index/87;"{""type"": ""Point"", ""coordinates"": [3.1480043388737, 50.724650885578]}";1734;50.7246508856, 3.14800433887
+CLINIQUE DE LA MITTERIE;(LOMME) LILLE;59160;http://www.clinique-mitterie.com;"{""type"": ""Point"", ""coordinates"": [2.9923404297026, 50.65389134502]}";3857;50.653891345, 2.9923404297
+CLINIQUE SAINT JEAN;ROUBAIX;59100;;"{""type"": ""Point"", ""coordinates"": [3.178288786343, 50.685912854851]}";1416;50.6859128549, 3.17828878634
+CLINIQUE DE LA VICTOIRE HPM;TOURCOING;59200;http://www.groupehpm.com/clinique-victoire-tourcoing;"{""type"": ""Point"", ""coordinates"": [3.1566224550655, 50.716458768421]}";5619;50.7164587684, 3.15662245507
+CH CENTRE HOSPITALIER GUSTAVE DRON;TOURCOING;59200;http://www.ch-tourcoing.fr;"{""type"": ""Point"", ""coordinates"": [3.1802901785553, 50.744644307373]}";1668;50.7446443074, 3.18029017856
+CHR CENTRE HOSPITALIER;ARMENTIERES;59280;http://www.ch-armentieres.fr;"{""type"": ""Point"", ""coordinates"": [2.867836606694, 50.684677901903]}";184;50.6846779019, 2.86783660669
+CLINIQUE AMBROISE PARE HPM;LILLE;59000;http://www.groupehpm.com/clinique-ambroisepare-lille;"{""type"": ""Point"", ""coordinates"": [3.0854991221233, 50.649147300325]}";4259;50.6491473003, 3.08549912212
+CHRU CENTRE HOSPITALIER REGIONAL ET UNIVERSITAIRE;LILLE;59000;http://www.chru-lille.fr;"{""type"": ""Point"", ""coordinates"": [3.0359684078101, 50.60866967145]}";5538;50.6086696715, 3.03596840781
+HOPITAL SAINT VINCENT DE PAUL GROUPE INSTITUT CATHOLIQUE;LILLE;59000;http://www.saintvincentdepaul-lille.fr/;"{""type"": ""Point"", ""coordinates"": [3.0771792776184, 50.620238091599]}";4238;50.6202380916, 3.07717927762
+HOPITAL SAINT PHILIBERT GROUPE INSTITUT CATHOLIQUE;(LOMME) LILLE;59160;http://www.saintphilibert-lomme.fr/;"{""type"": ""Point"", ""coordinates"": [2.9731517882953, 50.651394711752]}";1036;50.6513947118, 2.9731517883
+HOPITAL PRIVE DE VILLENEUVE D'ASCQ;VILLENEUVE D'ASCQ;59650;http://www.generale-de-sante.fr/hopital-prive-de-villeneuve-d-ascq;"{""type"": ""Point"", ""coordinates"": [3.1521857919809, 50.653010425216]}";2109;50.6530104252, 3.15218579198
+CLINIQUE LILLE SUD SOS MAINS HPM;LESQUIN;59810;http://www.groupehpm.com/clinique-lille-sud;"{""type"": ""Point"", ""coordinates"": [3.0894868271423, 50.588897155281]}";830;50.5888971553, 3.08948682714
+CLINIQUE SAINT ROCH;RONCQ;59223;http://www.clinique-saintroch.fr/;"{""type"": ""Point"", ""coordinates"": [3.115016521002, 50.732764203664]}";1395;50.7327642037, 3.115016521
+HOPITAL DE LA FRATERNITE;ROUBAIX;59100;http://www.ch-roubaix.fr;"{""type"": ""Point"", ""coordinates"": [3.197768849979, 50.682616137418]}";1428;50.6826161374, 3.19776884998

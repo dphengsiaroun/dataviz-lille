@@ -1,0 +1,31 @@
+commune;objectid;Site web;Nom;geometry;type;code-postal;geo_point_2d
+LILLE;3348;http://legrandbleu.com/;Theatre Le Grand Bleu;"{""type"": ""Point"", ""coordinates"": [3.0337405158102, 50.635675064374]}";THEATRE;59000;50.6356750644, 3.03374051581
+LEERS;5188;https://www.ville-leers.fr/Temps-libre/Culture;Salle De Cinema Edgar Deffrenne;"{""type"": ""Point"", ""coordinates"": [3.2437467327882, 50.679125503894]}";CINEMA;59115;50.6791255039, 3.24374673279
+ROUBAIX;1446;http://www.duplexe.com/;Cinema Le Duplexe;"{""type"": ""Point"", ""coordinates"": [3.1783314966156, 50.692684320488]}";CINEMA;59100;50.6926843205, 3.17833149662
+TOURCOING;1705;http://www.tourcoing-tourisme.com/fic_theatre_municipal.asp;Theatre Municipal Raymond Devos;"{""type"": ""Point"", ""coordinates"": [3.1533980718146, 50.720696943328]}";THEATRE;59200;50.7206969433, 3.15339807181
+LILLE;4954;http://www.theatre-verriere-decouverte.org/;Theatre De La Verriere;"{""type"": ""Point"", ""coordinates"": [3.0516139280035, 50.631283177659]}";THEATRE;59000;50.6312831777, 3.051613928
+HEM;6025;http://www.ville-hem.fr/culture-et-animations/equipements-culturels.html;Theatre De L'Aventure;"{""type"": ""Point"", ""coordinates"": [3.1891362598045, 50.663604153174]}";THEATRE;59510;50.6636041532, 3.1891362598
+LILLE;5374;http://www.theatredunord.fr/;Theatre Du Nord;"{""type"": ""Point"", ""coordinates"": [3.0638653831568, 50.636320147749]}";THEATRE;59000;50.6363201477, 3.06386538316
+VILLENEUVE D'ASCQ;22492;http://www.lemelies.fr/;Cinema Le Melies;"{""type"": ""Point"", ""coordinates"": [3.1411107941522, 50.616730234349]}";CINEMA;59650;50.6167302343, 3.14111079415
+LOOS;23038;http://www.ville-loos.fr/lrub-8-78-110-equipements-sportifs-et-culturels.html;Theatre Du Square;"{""type"": ""Point"", ""coordinates"": [3.012800573819, 50.615074035012]}";THEATRE;59120;50.615074035, 3.01280057382
+MARCQ-EN-BAROEUL;23420;;Theatre Charcot;"{""type"": ""Point"", ""coordinates"": [3.0838827127401, 50.662619999698]}";THEATRE;59700;50.6626199997, 3.08388271274
+LILLE;933;http://www.theatre-sebastopol.fr/;Theatre Sebastopol;"{""type"": ""Point"", ""coordinates"": [3.0579556447701, 50.629131477173]}";THEATRE;59000;50.6291314772, 3.05795564477
+ROUBAIX;1454;http://www.118000.fr/e_C0027749073;Theatre Pierre De Roubaix;"{""type"": ""Point"", ""coordinates"": [3.1865858270685, 50.689998303654]}";THEATRE;59100;50.6899983037, 3.18658582707
+ROUBAIX;5821;http://oiseau-mouche.org/;Garage Theatre La Compagnie De L'Oiseau Mouche;"{""type"": ""Point"", ""coordinates"": [3.1844579066763, 50.69320202115]}";THEATRE;59100;50.6932020212, 3.18445790668
+LILLE;5705;http://www.lemajesticlille.com/;Cinema Majestic;"{""type"": ""Point"", ""coordinates"": [3.0628097364575, 50.633539499238]}";CINEMA;59000;50.6335394992, 3.06280973646
+LILLE;25877;;Theatre Le Barraca Zem;"{""type"": ""Point"", ""coordinates"": [3.0548712899904, 50.628145468551]}";THEATRE;59000;50.6281454686, 3.05487128999
+RONCQ;20501;http://www.cinemaroncq.fr/programme.php;Cinema Gerard Philippe;"{""type"": ""Point"", ""coordinates"": [3.1221557410058, 50.751167619882]}";CINEMA;59223;50.7511676199, 3.12215574101
+HALLUIN;21204;http://www.ville-halluin.fr/37,cinema;Cinema Le Familia;"{""type"": ""Point"", ""coordinates"": [3.1274287791929, 50.780621585826]}";CINEMA;59250;50.7806215858, 3.12742877919
+WASQUEHAL;23267;http://www.theatre-louis-richard.com/sommaire/sommaire.html;Theatre Louis Richard;"{""type"": ""Point"", ""coordinates"": [3.1322696902114, 50.665960017351]}";THEATRE;59290;50.6659600174, 3.13226969021
+MARCQ-EN-BAROEUL;5733;http://www.marcq-en-baroeul.org/cinema-colisee-lumieres;Cinema Colisee-Lumiere;"{""type"": ""Point"", ""coordinates"": [3.0722399789264, 50.664178279515]}";CINEMA;59700;50.6641782795, 3.07223997893
+TOURCOING;6549;http://59.agendaculturel.fr/theatre-de-l-ideal;Theatre L'Ideal;"{""type"": ""Point"", ""coordinates"": [3.1415081185492, 50.726883136027]}";THEATRE;59200;50.726883136, 3.14150811855
+LILLE;3353;http://www.leprato.fr/;Theatre Le Prato;"{""type"": ""Point"", ""coordinates"": [3.0711695326792, 50.61914663512]}";THEATRE;59000;50.6191466351, 3.07116953268
+ROUBAIX;1436;http://www.coliseeroubaix.com/;Theatre Le Colisee;"{""type"": ""Point"", ""coordinates"": [3.1629360110975, 50.690805672049]}";THEATRE;59100;50.690805672, 3.1629360111
+VILLENEUVE D'ASCQ;5547;http://www.kino-cine.com/lesfilms.php;Cinema Kino;"{""type"": ""Point"", ""coordinates"": [3.1262526430013, 50.627319644337]}";CINEMA;59650;50.6273196443, 3.126252643
+(LOMME) LILLE;3795;http://kinepolis.fr/cinemas/kinepolis-lomme;Complexe Cinematographique Kinepolis;"{""type"": ""Point"", ""coordinates"": [2.9818401156931, 50.652015207515]}";CINEMA;59160;50.6520152075, 2.98184011569
+TOURCOING;5947;http://www.lavirgule.com/;Atelier Lyrique De Tourcoing, Et Theatre La Virgule;"{""type"": ""Point"", ""coordinates"": [3.1587396943359, 50.711756963316]}";THEATRE;59200;50.7117569633, 3.15873969434
+LILLE;5704;http://www.lemetropolelille.com/;Cinema Le Metropole;"{""type"": ""Point"", ""coordinates"": [3.0670728971864, 50.636546195959]}";CINEMA;59000;50.636546196, 3.06707289719
+LILLE;5375;http://www.lepetitjacques.fr/;Theatre De Marionnettes Le P'Tit Jacques Du Jardin Vauban;"{""type"": ""Point"", ""coordinates"": [3.048016296899, 50.636639850302]}";THEATRE;59000;50.6366398503, 3.0480162969
+ROUBAIX;1992;http://tousazimutsletheatre.fr/on-est-tous-un-peu-a-louest/programme/;Theatre La Mackellerie;"{""type"": ""Point"", ""coordinates"": [3.153448944369, 50.68961530038]}";THEATRE;59100;50.6896153004, 3.15344894437
+LILLE;5706;http://www.ugc.fr/cinema.html?code=LILLE;Cinema Ugc Cine Cite;"{""type"": ""Point"", ""coordinates"": [3.063247227211, 50.634078356562]}";CINEMA;59000;50.6340783566, 3.06324722721
+VILLENEUVE D'ASCQ;22461;http://www.ugc.fr/cinema.html?code=CCVDA;Ugc Cine Cite (Cinema);"{""type"": ""Point"", ""coordinates"": [3.125542574398, 50.615821924386]}";CINEMA;59650;50.6158219244, 3.1255425744
