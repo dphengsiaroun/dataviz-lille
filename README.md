@@ -19,6 +19,13 @@ or on MacOS run this command :
 brew install logstash
 ```
 
+# Step by Step
+1. Start services (Kibana, Logstash, Elasticsearch) and 
+2. Create a file logstash_filename.conf and run this file in your shell
+3. Go to Kibana (http://localhost:5601) on your browser.
+4. On Kibana navigation, go to `Dev Tools` and add code in 
+
+
 # Start Kibana
 Open the Kibana configuration file:  
 - kibana.yml
@@ -34,7 +41,7 @@ elasticsearch.url: "http://localhost:9200”
 $ brew services start kibana
 ```
 
-Visit this url `http://localhost:5601` on your browser.
+Go to (http://localhost:5601) on your browser.
 
 In Dashboard click in `Dev tools` view and add this code :
 ```
@@ -52,20 +59,27 @@ PUT items
   }
 }
 
-GET items
+GET items/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+GET items/_count
 
 DELETE items
 ```
 
-# Start Logstash
+# Getting started with Logstash
 Run this command :
 ```
 $ brew services start logstash
 ```
 
-Create file `logstash.conf` on your shell with this command :
+Create file `logstash_filename.conf` on your shell with this command :
 ```
-sudo vim /etc/logstash/conf.d/logstash.conf
+sudo vim logstash_filename.conf
 ```
 
 Add this code in your file config logstash (you can custom the filter object according to your needs):
@@ -75,7 +89,7 @@ input {
     type => "stdin-type"
   }
   file {
-    path => [ "/${path}/data/bureaux-de-poste.csv"]
+    path => [ "/PATH_DIR/data/bureaux-de-poste.csv"]
     start_position => "beginning"
     sincedb_path => "/dev/null"
   }
@@ -101,7 +115,7 @@ filter {
 output {
   elasticsearch {
     hosts => ["127.0.0.1:9200"] 
-    index => "dataviz-lille"
+    index => "NAME_OF_YOUR_INDEX_PATTERN"
   }
   stdout { codec => rubydebug }
 }
