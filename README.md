@@ -29,6 +29,7 @@ brew install logstash
 GET items/_count
 ```
 and check to result of count.
+
 6. On Kibana navigation, go to `Management` and `Create Index pattern`. The index name is equal to that defined in the logstash_filename.conf
 
 
