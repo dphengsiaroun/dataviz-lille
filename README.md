@@ -1,5 +1,9 @@
 # Data Vizualisation with Kibana, ElasticSearch & Logstash
 
+This is a project to make a data vizualisation on Open data of Lille.
+All the data were found here (https://opendata.lillemetropole.fr/) and export to csv.
+You can find my export in data directory.
+
 ## Prerequisites
 Install :
 1. Java 8 (http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
@@ -30,7 +34,9 @@ GET items/_count
 ```
 and check to result of count.
 
-6. On Kibana navigation, go to `Management` and `Create Index pattern`. The index name is equal to that defined in the logstash_filename.conf
+6. On Kibana navigation, go to `Management` and `Create Index pattern`. The index name is equal to that defined in the logstash_filename.conf. You can see your data on Kibana navigation in `Discover`.
+
+7. On Kibana navigation, go to `Vizualize` and click on button `+` to create a new visualization. Choose the coordinate map
 
 
 
