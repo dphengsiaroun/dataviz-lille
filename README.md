@@ -36,8 +36,7 @@ and check to result of count.
 
 6. On Kibana navigation, go to `Management` and `Create Index pattern`. The index name is equal to that defined in the logstash_filename.conf. You can see your data on Kibana navigation in `Discover`.
 
-7. On Kibana navigation, go to `Vizualize` and click on button `+` to create a new visualization. Choose the coordinate map
-
+7. On Kibana navigation, go to `Vizualize` and click on button `+` to create a new visualization. Choose the coordinate map and select your `index_pattern`, choose `Geo Hash` and Geo point columns then click on run.
 
 
 # Getting started with Kibana
@@ -70,6 +69,9 @@ PUT items
         "geo_point_2d" : { "type": "geo_point" }
       }
     }
+  }
+  "blocks": {
+    "read_only_allow_delete": "false"
   }
 }
 
