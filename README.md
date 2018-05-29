@@ -25,7 +25,7 @@ brew install logstash
 
 # Step by Step
 1. Start services (Kibana, Logstash, Elasticsearch)
-2. Create a file logstash_filename.conf and run this file in your shell
+2. Create a file logstash_filename.conf and run this file in your shell (Go to part `Get started with Logstash`)
 3. Go to Kibana (http://localhost:5601) on your browser.
 4. On Kibana navigation, go to `Dev Tools` and to add the code of the part `Get started with Kibana` 
 5. Run the method 
@@ -58,7 +58,7 @@ $ brew services start kibana
 
 Go to (http://localhost:5601) on your browser.
 
-In Dashboard click in `Dev tools` view and add this code :
+In Dashboard click in `Dev tools` view and add this code, if you want to get and view data :
 ```
 PUT items
 {
