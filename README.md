@@ -27,7 +27,7 @@ brew install logstash
 1. Start services (Kibana, Logstash, Elasticsearch)
 2. Create a file logstash_filename.conf and run this file in your shell
 3. Go to Kibana (http://localhost:5601) on your browser.
-4. On Kibana navigation, go to `Dev Tools` and to add the code of the part `Getting started with Kibana` 
+4. On Kibana navigation, go to `Dev Tools` and to add the code of the part `Get started with Kibana` 
 5. Run the method 
 ```
 GET items/_count
@@ -41,7 +41,7 @@ and check to result of count.
 8. It should be working ! Enjoy.
 
 
-# Getting started with Kibana
+# Get started with Kibana
 Open the Kibana configuration file:  
 - kibana.yml
 
@@ -89,7 +89,7 @@ GET items/_count
 DELETE items
 ```
 
-# Getting started with Logstash
+# Get started with Logstash
 Run this command :
 ```
 $ brew services start logstash
@@ -145,7 +145,7 @@ Run the file config logstash on your shell
 $ logstash -f logstash/filename.conf
 ```
 
-# Getting started with Elasticsearch
+# Get started with Elasticsearch
 Run this command :
 ```
 $ brew services start elasticsearch
