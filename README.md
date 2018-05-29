@@ -72,9 +72,6 @@ PUT items
       }
     }
   }
-  "blocks": {
-    "read_only_allow_delete": "false"
-  }
 }
 
 GET items/_search
