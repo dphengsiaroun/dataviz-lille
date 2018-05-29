@@ -107,7 +107,7 @@ input {
     type => "stdin-type"
   }
   file {
-    path => [ "/PATH_DIR/data/bureaux-de-poste.csv"]
+    path => [ "/PATH_DIR/dataviz-lille/data/bureaux-de-poste.csv"]
     start_position => "beginning"
     sincedb_path => "/dev/null"
   }
@@ -142,6 +142,7 @@ output {
 Run the file config logstash on your shell
 
 ```
+$ cd dataviz-lille
 $ logstash -f logstash/filename.conf
 ```
 
